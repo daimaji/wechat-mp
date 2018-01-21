@@ -11,8 +11,9 @@ public class WxmpConfig {
     public static String GET_USER_INFO_URL = "https://api.weixin.qq.com/cgi-bin/user/info";
     public static String MEDIA_UPLOAD_URL = "https://api.weixin.qq.com/cgi-bin/media/upload";
 
-    public static String APPID = "wx2dbef1e6e438d15e";
-    public static String APPSECRET = "30c12eade04996f5dee52bb0efa15e50";
+//    填写自己公众号的Appid
+    public static String APPID = "xxxxxx";
+    public static String APPSECRET = "xxxxxx";
     public static String getToken() {
         StringBuffer sb = new StringBuffer(GET_TOKEN_URL);
         sb.append("grant_type=client_credential&");
