@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Matrix Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="/css/colorpicker.css" />
+<link rel="stylesheet" href="/css/datepicker.css" />
+<link rel="stylesheet" href="/css/uniform.css" />
+<link rel="stylesheet" href="/css/select2.css" />
+<link rel="stylesheet" href="/css/matrix-style2.css" />
+<link rel="stylesheet" href="/css/matrix-media.css" />
+<link rel="stylesheet" href="/css/bootstrap-wysihtml5.css" />
+<link href="/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+<style>
+	.control-group .controls label{
+		display:inline-block;
+	}
+</style>
+</head>
+<body>
+
+<div id="content">
+  <div id="content-header">
+      <h1>新建应用</h1>
+  </div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>应用信息</h5>
+        </div>
+        <div class="widget-content nopadding">
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label">应用名称 :</label>
+              <div class="controls">
+                <input id="appname" type="text" class="span6" placeholder="应用名称" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">应用英文名称</label>
+              <div class="controls">
+                <input id="appnameen" type="text" class="span6" placeholder="应用英文名称（选填）" />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">应用简介</label>
+              <div class="controls">
+                <input id="appabstract" type="text"  class="span6" placeholder="应用英文名称"  />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">应用主页</label>
+              <div id="apphome" class="controls">
+                <input type="text" class="span6" placeholder="应用主页" />
+              </div>
+            </div>
+            <div class="control-group">
+            	<div class="span3">
+	            </div>
+	            <div class="span9">
+	              <input class="btn btn-success" value="保存" onclick="createApp()">
+	            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+<script src="/js/jquery.min.js"></script> 
+<script src="/js/jquery.ui.custom.js"></script> 
+<script src="/js/bootstrap.min.js"></script> 
+<script src="/js/jquery.toggle.buttons.html"></script> 
+<script src="/js/masked.js"></script> 
+<script src="/js/jquery.uniform.js"></script> 
+<script src="/js/select2.min.js"></script> 
+<script src="/js/matrix.js"></script> 
+<script src="/js/matrix.form_common.js"></script> 
+<script src="/js/jquery.peity.min.js"></script>
+<script src="/js/myapps/create.js"></script> 
+</body>
+</html>
