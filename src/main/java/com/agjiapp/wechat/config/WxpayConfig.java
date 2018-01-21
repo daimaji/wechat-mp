@@ -18,9 +18,4 @@ public class WxpayConfig {
 
 	public static final String WX_API_SECRET = "48beb26c307b7b6cd1343f62d02d3240";
 	
-	public static final String NOTIFY_URL = "http://yj.openspeech.cn/wx/wxpay/notify";
-//	public static final String NOTIFY_URL = "https://testyj.openspeech.cn/wx/wxpay/notify";
-
-	public static final String NOTIFY_URL_SPK = "http://yj.openspeech.cn/wx/spkwxpay/notify";
-//	public static final String NOTIFY_URL_SPK = "https://testyj.openspeech.cn/wx/wxpay/notify";
 }

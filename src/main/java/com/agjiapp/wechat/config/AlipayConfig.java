@@ -22,12 +22,4 @@ public class AlipayConfig {
 
 	// 接口版本号（固定值）
 	public static String version = "1.0";
-
-	// 支付宝异步通知url
-	public static String notify_url = "http://yj.openspeech.cn/wx/membertrade/callback";
-//	public static String notify_url = "http://testyj.openspeech.cn/wx/membertrade/callback";
-
-	public static String notify_url_spk = "http://yj.openspeech.cn/wx/speaker/trade/callback";
-//	public static String notify_url_spk = "http://testyj.openspeech.cn/wx/speaker/trade/callback";
-
 }
